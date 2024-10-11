@@ -1,0 +1,25 @@
+body{
+    display: flex;
+   
+}
+#left{
+    flex: 1;
+    width: 35%;
+    background-color: blue;
+}
+#right{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    
+}
+
+#rightTop{
+    
+    min-height: 60%;
+    box-shadow: 0 5px 10px -5px #888;
+}
+#rightBottom{
+    min-height: 40%;
+}
+
