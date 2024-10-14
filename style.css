@@ -32,6 +32,8 @@ body{
 }
 
 #rightTop{
+    display:flex;
+    flex-direction: column;
     
     min-height: 60%;
     width: 100%;
@@ -39,7 +41,7 @@ body{
 }
 #rightBottom{
     
-    min-height: 40%;
+    height: 400px;
     width: 100%;
 }
 .leftFooter{
@@ -51,7 +53,10 @@ body{
     min-height: 93%;
 }
 .topSection{
-    min-height: 20%;
+    min-height: 20%;   
+}
+.logo{
+    text-shadow: 2px 2px 2px black;
 }
 .bottomSection{
     min-height: 55%;
@@ -69,6 +74,44 @@ body{
 .badge{
     fill: rgb(255, 199, 16);
     height: 50%;
+
+}
+.mainText{
+    margin: 15% 5% 10% 5%;
+    font-size: 1.25em;
+    font-weight: 600;
+    
+}
+.mainText > p{
+    padding-left: 25px;
+    padding-right: 150px;
+}
+.mainForm{
+    font-size: 1.25em;
+    font-weight: 550;
+    margin-left: 5%;
+    padding-left: 25px;
+    min-height: 50%;
+}
+input, label{
+    display: block;
+    border-radius: 4px;
+    /* padding-bottom: 1em;
+    padding-right: 6em; */
+    margin-bottom: 1em;
+}
+input{
+    width: 15em;
+    height: 2em;
+    
+}
+
+.login{
+    display:flex;
+    gap: 50px;
+    font-size: 0.5em;
+    font-weight: 600;
+    letter-spacing: 1.5px;
 
 }
 
