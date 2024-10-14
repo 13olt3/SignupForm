@@ -35,28 +35,41 @@
             </div>
             <div class="mainForm">
                 Let's do this!
+                <p></p>
+                
                 <div class="login">
                     <div>
-                        <label> FIRST NAME
-                            <input type="text" name="firstName" >
-                        </label>
-                        <label> EMAIL
-                            <input type="email" name="email" >
-                        </label>
-                        <label> PASSWORD
-                            <input type="password" name="inputPW" >
-                        </label>
+                        <label for="firstName"> FIRST NAME</label>
+                        <input tabindex="1" id="firstName" type="text" name="firstName" >
+                        <label for="email"> EMAIL <span aria-label="required">*</span></label>
+                        <input tabindex="3"  id="email" type="email" name="email" required>
+                        <label for="password"> PASSWORD<span aria-label="required">*</span></label>
+                        <input 
+                        tabindex="5"  
+                        id="password" 
+                        type="password" 
+                        name="inputPW"
+                        required>
+
+                        
+
                     </div>
                     <div>
-                        <label> LAST NAME
-                            <input type="text" name="lastName" >
-                        </label>
-                        <label> PHONE NUMBER
-                            <input type="tel" name="phNumber" >
-                        </label>
-                        <label> CONFIRM PASSWORD
-                            <input type="password" name="confirmPW" >
-                        </label>
+                        <label for="lastName"> LAST NAME</label>
+                        <input tabindex="2" id="lastName" type="text" name="lastName">
+                        <label for="phNum"> PHONE NUMBER</label>
+                        <input tabindex="4"  id="phNum" type="tel" name="phNumber">                        
+                        <label for="confirmPW"> CONFIRM PASSWORD<span aria-label="required">*</span></label>
+                        <input 
+                        tabindex="6"  
+                        id="confirmPW" 
+                        type="password" 
+                        name="confirmPW"
+                        minlength="5"
+                        required>
+
+
+                        
                     </div>
 
                 </div>
@@ -68,8 +81,9 @@
 
 
         <div id="rightBottom">
-            <button class="createAcc" >Create Account</button>
-            BOTTOm
+            <button type="submit" class="createAcc" >Create Account</button>
+            <div class="accExists">Already have an account? <a type="link" href="">Log in</a></div>
+
         </div>
     </div>
 </body>
