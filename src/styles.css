@@ -1,166 +1,150 @@
 @font-face {
-    font-family: 'norsebold';
-    src: url('fonts/norse-bold/norse-bold-webfont.woff2') format('woff2'),
-         url('fonts/norse-bold/norse-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: "norsebold";
+  src:
+    url("fonts/norse-bold/norse-bold-webfont.woff2") format("woff2"),
+    url("fonts/norse-bold/norse-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-   
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
 }
 
-#left{
-    display: flex;
-    flex-direction: column;
-    
-    width: 35%;
-    
-    background: url("./images/lamboResized.jpg") no-repeat local 47% 50%;
-    
-    
+#left {
+  display: flex;
+  flex-direction: column;
+
+  width: 35%;
+
+  background: url("./images/lamboResized.jpg") no-repeat local 47% 50%;
 }
-#right{
-    display: flex;
-    flex-direction: column;
-    width: 65%;
-    
+#right {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
 }
 
-#rightTop{
-    display:flex;
-    flex-direction: column;
-    
-    min-height: 60%;
-    width: 100%;
-    box-shadow: 0 5px 10px -5px #888;
+#rightTop {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 60%;
+  width: 100%;
+  box-shadow: 0 5px 10px -5px #888;
 }
-#rightBottom{
-    
-    height: 400px;
-    width: 100%;
+#rightBottom {
+  height: 400px;
+  width: 100%;
 }
-.leftFooter{
-    color:beige;
-    text-align: center;
+.leftFooter {
+  color: beige;
+  text-align: center;
 }
 
-.leftMain{
-    min-height: 93%;
+.leftMain {
+  min-height: 93%;
 }
-.topSection{
-    min-height: 20%;   
+.topSection {
+  min-height: 20%;
 }
-.logo{
-    text-shadow: 2px 2px 2px black;
+.logo {
+  text-shadow: 2px 2px 2px black;
 }
-.bottomSection{
-    min-height: 55%;
+.bottomSection {
+  min-height: 55%;
 }
-.banner{ 
-    background-color: rgba(0,0,0,0.5);
-    font-size: 3em;
-    color: rgb(180, 25, 4);
-    font-family: "norsebold", normal;   
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    height: min(25%, 250px);
+.banner {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 3em;
+  color: rgb(180, 25, 4);
+  font-family: "norsebold", normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: min(25%, 250px);
 }
-.badge{
-    fill: rgb(255, 199, 16);
-    height: 50%;
-
+.badge {
+  fill: rgb(255, 199, 16);
+  height: 50%;
 }
-.mainText{
-    margin: 15% 5% 10% 5%;
-    font-size: 1.25em;
-    font-weight: 600;
-    
+.mainText {
+  margin: 15% 5% 10% 5%;
+  font-size: 1.25em;
+  font-weight: 600;
 }
-.mainText > p{
-    padding-left: 25px;
-    padding-right: 150px;
+.mainText > p {
+  padding-left: 25px;
+  padding-right: 150px;
 }
-.mainForm{
-    font-size: 1.25em;
-    font-weight: 550;
-    margin-left: 5%;
-    padding-left: 25px;
-    min-height: 50%;
+.mainForm {
+  font-size: 1.25em;
+  font-weight: 550;
+  margin-left: 5%;
+  padding-left: 25px;
+  min-height: 50%;
 }
-input, label{
-    display: block;
-
+input,
+label {
+  display: block;
 }
-input{
-    margin-bottom: 1em;
-    width: 17em;
-    height: 2em;    
-    border-radius: 5px;
-    border-width: 1px;
-    border-color: rgb(221, 224, 224);
-    
+input {
+  margin-bottom: 1em;
+  width: 17em;
+  height: 2em;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: rgb(221, 224, 224);
 }
 
-label{
-    margin-bottom: 4px;
-    color: rgb(77, 77, 77);
-    
+label {
+  margin-bottom: 4px;
+  color: rgb(77, 77, 77);
 }
 
-
-.login{
-    display:flex;
-    gap: 50px;
-    font-size: 0.5em;
-    font-weight: 600;
-    letter-spacing: 1.5px;
-
+.login {
+  display: flex;
+  gap: 50px;
+  font-size: 0.5em;
+  font-weight: 600;
+  letter-spacing: 1.5px;
 }
 
-input:focus{
-    border: 2px solid;
-    border-color: rgb(16, 34, 114);
-    outline: none;
-    box-shadow: 2px 2px 2px rgb(0 0 0 / 40%);
+input:focus {
+  border: 2px solid;
+  border-color: rgb(16, 34, 114);
+  outline: none;
+  box-shadow: 2px 2px 2px rgb(0 0 0 / 40%);
 }
-input:invalid{
-    border: 2px solid;
-    border-color: rgb(211, 30, 30);
-    outline: none; 
+input:invalid {
+  border: 2px solid;
+  border-color: rgb(211, 30, 30);
+  outline: none;
 }
-
 
 button {
-    margin:50px 50px 40px 50px;
-    background-color: #ff0000;
-    border: none;
-    color: white;
-    padding: 12px 36px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-size:1em;
-    border-radius: 8px;
-    font-weight: 700;
-    color: rgb(255, 199, 16);
-  }
-.accExists{
-    padding: 0 0 0 50px;
-    font-weight: 600;
+  margin: 50px 50px 40px 50px;
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  padding: 12px 36px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-size: 1em;
+  border-radius: 8px;
+  font-weight: 700;
+  color: rgb(255, 199, 16);
 }
-a[type="link"]{
-    color: #ff0000;
-    text-decoration: none;
+.accExists {
+  padding: 0 0 0 50px;
+  font-weight: 600;
 }
-
-
-
-
+a[type="link"] {
+  color: #ff0000;
+  text-decoration: none;
+}
